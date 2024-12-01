@@ -1,0 +1,44 @@
+.counterApp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.counterNumber{
+  font-size: 50px;
+  font-weight: 600;
+  display: block;
+  padding: 4px 24px;
+  border-radius: 6px;
+  background-color: #333333;
+}
+
+.btn{
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  background-color: #333333;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  margin: 0 8px;
+}
+
+.incrementBtn{
+  background-color: #D4EBF8;
+  color: #0A3981;
+}
+
+.decrementBtn{
+  background-color: #F8D4D4;
+  color: #A61C1C;
+}
+
+.resetBtn{
+  background-color: #CB9DF0;
+  color: #511b7e;
+}
